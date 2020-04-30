@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# bash_aliases
+
+
+# Allow aliases to be with sudo
+alias sudo="sudo "
+
+
+# Easier navigation: .., ..., ~ and -
+alias ee="exit"
+alias z="cd" #change directory to current user*
+
+# Clear terminal 
+alias c="clear"
+
+# Copy selection to clipboard
+alias cc='xclip -selection clipboard'
+
+# Open .zshrc file on nano 
+alias zshconfig="nano ~/.zshrc"
+
+#Source .zshrc file 
+alias zshupdate="source ~/.zshrc"
+
+#Generate a random password 
+alias zshupdate="source ~/.zshrc"
+
