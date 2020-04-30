@@ -27,3 +27,26 @@ I use Gnome as a primary desktop environment on my Ubuntu machine, bellow I have
 
 [complete list](https://github.com/aminelch/dotfiles/blob/master/gnome/extension_list.md) 
  
+### Intellij PHPStorm extensions 
+ 
+#### settings
+
+Feel free to use my settings for Intellij product, simply 
+
+- download the file **setting.zip** 
+- import setting  file ➡ manage IDE settings ➡ import settings 
+
+
+#### extensions 
+ 
+	com.chrisrm.idea.MaterialThemeUI
+	
+	com.samdark.intellij-visual-studio-code-dark-plus
+	
+	de.espend.idea.php.annotation
+
+	de.espend.idea.php.toolbox
+
+	fr.adrienbrault.idea.symfony2plugin
+
+	ru.adelf.idea.dotenv
