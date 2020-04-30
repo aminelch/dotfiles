@@ -11,9 +11,9 @@ My Ubuntu dotfiles.
 
 ### ZSH Ressources 
 
-[complete list](https://github.com/aminelch/dotfiles/blob/master/zshrc/zshrc_aliases) 
-https://github.com/aminelch/dotfiles/blob/master/zshrc/zshrc_aliases
-zshrc aliases 
+**oh-my-zsh** framework for managing my Zsh configuration
+👉 [https://ohmyz.sh/](https://ohmyz.sh/) 
+
 
 #### Aliases 
 
@@ -45,7 +45,7 @@ I use Gnome as a primary desktop environment on my Ubuntu machine, bellow I have
 4. Dash to dock
 5. Desktop icons
 
-[complete list](https://github.com/aminelch/dotfiles/blob/master/gnome/extension_list.md) 
+👉 [comple gnome extension list](https://github.com/aminelch/dotfiles/blob/master/gnome/extension_list.md) 
  
 ### Intellij PHPStorm extensions 
  
@@ -56,6 +56,7 @@ Feel free to use my settings for Intellij product, simply
 - download the file **setting.zip** 
 - import setting  file ➡ manage IDE settings ➡ import settings 
 
+👁️ [PHPStorm settings](https://github.com/aminelch/dotfiles/blob/master/phpstorm/settings.zip) 
 
 #### extensions 
  
