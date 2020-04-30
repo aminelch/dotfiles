@@ -15,6 +15,26 @@ My Ubuntu dotfiles.
 https://github.com/aminelch/dotfiles/blob/master/zshrc/zshrc_aliases
 zshrc aliases 
 
+#### Aliases 
+
+	# Allow aliases to be with sudo
+	alias sudo="sudo "	
+	
+	# Easier navigation: .., ..., ~ and -
+	alias ee="exit"
+	alias z="cd" #change directory to current user*
+	
+	# Clear terminal 
+	alias c="clear"
+	
+	# Copy selection to clipboard
+	alias cc='xclip -selection clipboard'
+	
+	# Open .zshrc file on nano 
+	alias zshconfig="nano ~/.zshrc"
+
+👉  [view complete list](https://github.com/aminelch/dotfiles/blob/master/zshrc/zshrc_aliases) 
+
 ### Gnome extension 
 
 I use Gnome as a primary desktop environment on my Ubuntu machine, bellow I have made a list of useful extensions.
