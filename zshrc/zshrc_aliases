@@ -1,15 +1,30 @@
 #!/bin/bash
 
-# bash_aliases
+#   +-+-+ +-+-+-+-+-+-+-+-+-+-+-+-+  
+#   +-+-+ +-+-+-+-+-+-+-+-+-+-+-+-+  
+#   |B|Y| |-|-|>|.|a|m|i|n|e|l|c|h|  
+#   +-+-+ +-+-+-+-+-+-+-+-+-+-+-+-+  
+#   +-+-+ +-+-+-+-+-+-+-+-+-+-+-+-+  
+
+ 
 
 
 # Allow aliases to be with sudo
 alias sudo="sudo "
 
-
 # Easier navigation: .., ..., ~ and -
 alias ee="exit"
-alias z="cd" #change directory to current user*
+alias z="cd"
+alias ..="cd .."
+
+# My working directory 
+alias pfe="cd ~/PFE"
+alias PFE="cd ~/PFE"
+
+# Aliases to diplay some colorls commands 
+alias lc='colorls -lA --sd'
+alias ll='colorls --gs'
+alias la='colorls -r'
 
 # Clear terminal 
 alias c="clear"
@@ -20,9 +35,35 @@ alias cc='xclip -selection clipboard'
 # Open .zshrc file on nano 
 alias zshconfig="nano ~/.zshrc"
 
-#Source .zshrc file 
+# Source .zshrc file 
 alias zshupdate="source ~/.zshrc"
 
-#Generate a random password 
+# Generate a random password 
 alias zshupdate="source ~/.zshrc"
 
+# Copy mygit password to clipboard
+alias gitpass="cat ~/Documents/git.txt|cc"
+
+# Open new url on firefox
+alias sudo="firefox --new-tab << `read;echo $url` "
+
+# What is my ip 
+alias myip="echo your IP adress is : `curl ipinfo.io/ip`"
+
+# Open PHP built in server 
+alias phps="php -S localhost:8000 -ddisplay_errors=1"
+
+# Open Angular built in server
+alias ngs='ng serve'
+
+# Alias to taskbook utility 
+alias tb ='taskbook'
+
+# Run kickthemout script 
+alias kick="sudo python3 ~/kickthemout/kickthemout.py"
+
+# Just update system
+alias update='sudo apt-get update'
+
+# Update & upgrade packages to latest version
+alias update='sudo apt-get update && sudo apt-get upgrade'
