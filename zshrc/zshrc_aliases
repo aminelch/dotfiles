@@ -39,7 +39,7 @@ alias zshconfig="nano ~/.zshrc"
 alias zshupdate="source ~/.zshrc"
 
 # Generate a random password 
-alias zshupdate="source ~/.zshrc"
+alias getpass="openssl rand -base64 20"
 
 # Copy mygit password to clipboard
 alias gitpass="cat ~/Documents/git.txt|cc"
