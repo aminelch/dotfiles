@@ -31,8 +31,25 @@ My Ubuntu dotfiles.
 	
 	# Open .zshrc file on nano 
 	alias zshconfig="nano ~/.zshrc"
-
+	
 👉  [view complete list](https://github.com/aminelch/dotfiles/blob/master/zshrc/zshrc_aliases) 
+
+#### GIT 
+
+
+	alias gs='git status '
+
+	alias ga='git add '
+
+	alias gb='git branch '
+
+	alias gc='git commit'
+
+	alias gd='git diff'
+
+	alias gco='git checkout '
+
+👉  [view complete list](https://github.com/aminelch/dotfiles/blob/master/zshrc/git_aliases) 
 
 ### Gnome extension 
 
@@ -77,11 +94,11 @@ as a web developer i usually works with firefox as primary browser
 
 ➡ [https://www.mozilla.org/en-US/firefox/new/](https://www.mozilla.org/en-US/firefox/new/) 
 
-###VSCodium 
+### VSCodium 
 
 The VSCodium project exists so that you don’t have to download+build from source. This project includes special build scripts that clone Microsoft’s vscode repo, run the build commands, and upload the resulting binaries for you to [GitHub releases](https://github.com/VSCodium/vscodium/releases) . These binaries are licensed under the MIT license. Telemetry is disabled.
 
-#### VSCodium extensions list 
+#### vscodium extensions list 
 
 	code --install-extension adpyke.vscode-sql-formatter
 	code --install-extension BernardXiong.env-vscode
