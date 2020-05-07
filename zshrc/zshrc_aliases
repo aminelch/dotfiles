@@ -67,3 +67,7 @@ alias update='sudo apt-get update'
 
 # Update & upgrade packages to latest version
 alias update='sudo apt-get update && sudo apt-get upgrade'
+
+# Alias to symfony console
+alias sc="symfony console"
+
