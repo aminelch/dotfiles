@@ -71,3 +71,5 @@ alias update='sudo apt-get update && sudo apt-get upgrade'
 # Alias to symfony console
 alias sc="symfony console"
 
+# Devdocs alias 
+alias devdoc="cd ~/githubProjects/devdocs; bundle exec rackup"
