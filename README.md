@@ -94,6 +94,12 @@ as a web developer i usually works with firefox as primary browser
 
 ➡ [https://www.mozilla.org/en-US/firefox/new/](https://www.mozilla.org/en-US/firefox/new/) 
 
+### Terminal 
+
+Tilix Terminal : is an advanced GTK3 tiling terminal emulator that follows the Gnome Human Interface Guidelines. 
+
+➡ [https://gnunn1.github.io/tilix-web/](https://gnunn1.github.io/tilix-web/) 
+
 ### VSCodium 
 
 The VSCodium project exists so that you don’t have to download+build from source. This project includes special build scripts that clone Microsoft’s vscode repo, run the build commands, and upload the resulting binaries for you to [GitHub releases](https://github.com/VSCodium/vscodium/releases) . These binaries are licensed under the MIT license. Telemetry is disabled.
