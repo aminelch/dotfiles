@@ -22,6 +22,10 @@ The lorem ipsum generator does what it’s name states. It provides an easy and 
 Similar to Ghostery, the Wappalyzer Chrome extension lets you identify software that is installed on any particular website. It uncovers technologies and. content management system, eCommerce platforms, web servers, JavaScript frameworks and installed analytics tools.
 [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?hl=en%20) 
 
+- **Octotree**
+GitHub on steroids
+[Octotree](https://addons.mozilla.org/en-US/firefox/addon/octotree/) 
+
 - **Session Manager**
 When you’re working on the web, browser tabs management is a great skill. Session Manager is your Chrome extension to go. It saves your browsing state and lets you re-open the session later. It is particularly useful if you find yourself opening the same web pages over and over.
 [Session Manager](https://chrome.google.com/webstore/detail/session-manager/bbcnbpafconjjigibnhbfmmgdbbkcjfi?hl=en%20) 
