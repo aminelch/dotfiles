@@ -77,3 +77,6 @@ alias devdoc="cd ~/githubProjects/devdocs; bundle exec rackup"
 # Youtube-dl 
 yt="youtube-dl --add-metadata -i"  #download audio/video file 
 yta="yt -x -f bestaudio/best" #download only sound's video
+
+# Copy mysql credentials to clipboard 
+mysqlpass='xclip -sel cli < ~/Documents/mysql.pass'
