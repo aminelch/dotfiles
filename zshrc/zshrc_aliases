@@ -80,3 +80,4 @@ yta="yt -x -f bestaudio/best" #download only sound's video
 
 # Copy mysql credentials to clipboard 
 mysqlpass='xclip -sel cli < ~/Documents/mysql.pass'
+alias connectdb="mysql -u root"
