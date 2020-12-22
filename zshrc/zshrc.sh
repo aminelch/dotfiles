@@ -120,6 +120,9 @@ alias ga='git add'
 alias gb='git branch'
 alias gc='git commit -m'
 
+#Open filemanager
+alias fm="nautilus ."
+
 # Symfony aliases
 alias sc="symfony console"
 
@@ -137,6 +140,4 @@ source $(dirname $(gem which colorls))/tab_complete.sh
 [ ! -s /home/aminelch/.travis/travis.sh ] || source /home/aminelch/.travis/travis.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-
 
