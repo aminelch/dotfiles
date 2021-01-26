@@ -129,3 +129,43 @@ The VSCodium project exists so that you don’t have to download+build from sour
 	code --install-extension vangware.dark-plus-material
 	code --install-extension whatwedo.twig
 	
+
+
+#### Gnome terminal 
+
+exporting profiles : 
+
+``` bash 
+dconf dump /org/gnome/terminal/legacy/profiles:/ > gnome-terminal-profiles.dconf
+```
+- importing profiles : 
+
+``` bash 
+ dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-terminal-profiles.dconf ```
+ 
+ - importing  visible profile 
+ 
+  If you want to export and then import only a particular profile, you need to find out the profile’s id first. To list all profiles available:
+ 
+ ```bash 
+ dconf dump /org/gnome/terminal/legacy/profiles:/ | grep -e "\[\:\|visible-name"
+  ```
+Let’s say I would like to export the server1 profile, the id for it is c20ee9bb-547e-4e42-9865-ec27748eec5f
+to back up it : 
+
+ ```bash 
+dconf dump /org/gnome/terminal/legacy/profiles:/:c20ee9bb-547e-4e42-9865-ec27748eec5f/ > server1-gnome-terminal-profile.dconf  ```
+
+To load it:
+ ```bash 
+dconf load /org/gnome/terminal/legacy/profiles:/:c20ee9bb-547e-4e42-9865-ec27748eec5f/ < server1-gnome-terminal-profile.dconf```
+
+#### Desktop 
+
+wallpaper : 
+
+ ```bash 
+wget https://www.udrop.com/9122/C3cchWl-debian-wallpaper.p
+```
+
+
