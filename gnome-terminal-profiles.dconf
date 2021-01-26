@@ -1,0 +1,139 @@
+[/]
+default='7fb86bbe-2e6e-4f33-9ab0-18481e84777f'
+list=['6c6d9ff4-cc0b-44e7-b2e2-f7f20697b30f', 'c9ccfa2a-06fe-452a-ab20-941cba0c1c21', '7fb86bbe-2e6e-4f33-9ab0-18481e84777f', '51db80b0-5782-44df-8315-03c3c3d6e60d', '857889f9-4671-48f1-ae6d-4825244366b5']
+
+[:51db80b0-5782-44df-8315-03c3c3d6e60d]
+allow-bold=true
+background-color='#f4f4f4f4f4f4'
+background-transparency-percent=4
+bold-color='#3e3e3e3e3e3e'
+bold-color-same-as-fg=true
+bold-is-bright=false
+cell-height-scale=1.05
+cell-width-scale=1.1000000000000001
+cursor-blink-mode='on'
+cursor-shape='block'
+default-size-columns=70
+default-size-rows=20
+font='Fira Code weight=453 13'
+foreground-color='#3e3e3e3e3e3e'
+highlight-background-color='#'
+highlight-colors-set=true
+highlight-foreground-color='#'
+palette=['#3e3e3e3e3e3e', '#97970b0b1616', '#070796962a2a', '#f8f8eeeec7c7', '#00003e3e8a8a', '#e9e946469191', '#8989d1d1ecec', '#ffffffffffff', '#666666666666', '#dede00000000', '#8787d5d5a2a2', '#f1f1d0d00707', '#2e2e6c6cbaba', '#ffffa2a29f9f', '#1c1cfafafefe', '#ffffffffffff']
+use-system-font=false
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='Github'
+
+[:6c6d9ff4-cc0b-44e7-b2e2-f7f20697b30f]
+allow-bold=true
+background-color='rgb(0,0,0)'
+background-transparency-percent=6
+bold-color='rgb(165,162,162)'
+bold-color-same-as-fg=false
+bold-is-bright=true
+cursor-colors-set=false
+font='CaskaydiaCove Nerd Font 14'
+foreground-color='rgb(206,229,212)'
+highlight-background-color='#'
+highlight-colors-set=false
+highlight-foreground-color='#'
+palette=['rgb(46,52,54)', 'rgb(204,0,0)', 'rgb(191,208,17)', 'rgb(196,160,0)', 'rgb(145,185,133)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(239,41,41)', 'rgb(138,226,52)', 'rgb(252,233,79)', 'rgb(114,159,207)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']
+use-system-font=false
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='3024 Night'
+
+[:7fb86bbe-2e6e-4f33-9ab0-18481e84777f]
+allow-bold=true
+audible-bell=true
+background-color='rgb(0,3,4)'
+background-transparency-percent=1
+bold-color='rgb(196,200,181)'
+bold-color-same-as-fg=false
+bold-is-bright=true
+cell-height-scale=1.2500000000000002
+cell-width-scale=1.0
+cursor-background-color='rgb(180,166,64)'
+cursor-blink-mode='on'
+cursor-colors-set=true
+cursor-shape='block'
+default-size-columns=70
+default-size-rows=20
+font='Operator Mono Lig Semi-Light 16'
+foreground-color='rgb(255,255,255)'
+highlight-background-color='rgb(30,121,50)'
+highlight-colors-set=true
+highlight-foreground-color='#'
+palette=['rgb(26,141,224)', 'rgb(222,43,17)', 'rgb(97,241,18)', 'rgb(9,93,251)', 'rgb(0,116,231)', 'rgb(214,173,213)', 'rgb(121,212,213)', 'rgb(212,212,212)', 'rgb(100,100,100)', 'rgb(233,118,52)', 'rgb(169,211,171)', 'rgb(241,6,31)', 'rgb(122,171,212)', 'rgb(214,173,213)', 'rgb(121,212,213)', 'rgb(212,212,212)']
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='Chalk (Copy) --2'
+
+[:857889f9-4671-48f1-ae6d-4825244366b5]
+allow-bold=true
+audible-bell=true
+background-color='#f7f7f7f7f7f7'
+background-transparency-percent=8
+bold-color='#4a4a45454343'
+bold-color-same-as-fg=true
+bold-is-bright=true
+cell-height-scale=1.2500000000000002
+cell-width-scale=1.0
+cursor-background-color='rgb(180,166,64)'
+cursor-blink-mode='on'
+cursor-colors-set=true
+cursor-shape='block'
+default-size-columns=70
+default-size-rows=20
+font='CaskaydiaCove Nerd Font 15'
+foreground-color='#4a4a45454343'
+highlight-background-color='#'
+highlight-colors-set=true
+highlight-foreground-color='#'
+palette=['#090903030000', '#dbdb2d2d2020', '#0101a2a25252', '#fdfdeded0202', '#0101a0a0e4e4', '#a1a16a6a9494', '#b5b5e4e4f4f4', '#a5a5a2a2a2a2', '#5c5c58585555', '#e8e8bbbbd0d0', '#3a3a34343232', '#4a4a45454343', '#80807d7d7c7c', '#d6d6d5d5d4d4', '#cdcdabab5353', '#f7f7f7f7f7f7']
+use-system-font=false
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=false
+visible-name='3024 Day'
+
+[:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(0,0,0)'
+background-transparency-percent=11
+bold-color-same-as-fg=true
+cell-width-scale=1.0
+default-size-columns=81
+default-size-rows=25
+font='Noto Mono Bold 12'
+foreground-color='rgb(170,170,170)'
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+
+[:c9ccfa2a-06fe-452a-ab20-941cba0c1c21]
+allow-bold=true
+background-color='#2D2D2D2D2D2D'
+bold-color='#D4D4D4D4D4D4'
+bold-color-same-as-fg=true
+bold-is-bright=false
+font='Source Code Pro Semi-Bold 12'
+foreground-color='#D4D4D4D4D4D4'
+highlight-background-color='#'
+highlight-colors-set=true
+highlight-foreground-color='#'
+palette=['#646464646464', '#F5F58E8E8E8E', '#A9A9D3D3ABAB', '#FEFED3D37E7E', '#7A7AABABD4D4', '#D6D6ADADD5D5', '#7979D4D4D5D5', '#D4D4D4D4D4D4', '#646464646464', '#F5F58E8E8E8E', '#A9A9D3D3ABAB', '#FEFED3D37E7E', '#7A7AABABD4D4', '#D6D6ADADD5D5', '#7979D4D4D5D5', '#D4D4D4D4D4D4']
+use-system-font=false
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+visible-name='Chalk'
