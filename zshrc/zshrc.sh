@@ -191,6 +191,10 @@ alias fm="nautilus ."
 # Docker alias 
 alias dk="docker"
 
+# change GTK themes 
+alias lightmode="gsettings set org.gnome.desktop.interface gtk-theme 'Flat-Remix-GTK-Blue-Darker-Solid'"
+alias darkmode="gsettings set org.gnome.desktop.interface gtk-theme 'Flat-Remix-GTK-Blue-Darkest-NoBorder'"
+
 # Mysql credential alias 
 #alias mysqlpass="xclip -sel cli < ~/Documents/mysql.pass"
 alias connectdb="mysql -u root"
@@ -203,22 +207,6 @@ export PATH="$PATH:/opt/vscodium/bin:$PATH"
 source /home/aminelch/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $(dirname $(gem which colorls))/tab_complete.sh
 
-#for pure theme
-#fpath+=$HOME/.oh-my-zsh/custom/themes/pure
-
-fpath+=$HOME/.zsh/pure
-
-autoload -U promptinit; promptinit
-prompt pure
-
-# phpbrew config
-#[[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
-#export PHPBREW_SET_PROMPT=1
-#export PHPBREW_RC_ENABLE=1
-#source /home/aminelch/.phpbrew/bashrc
-
-# added by travis gem
-[ ! -s /home/aminelch/.travis/travis.sh ] || source /home/aminelch/.travis/travis.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
