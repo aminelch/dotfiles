@@ -1,0 +1,13 @@
+#!/bin/bash
+
+NOTIF_LIGHT="🌞 Light mode is activated "
+
+DIR="$HOME/Images/wallpapers/light"
+PIC=$(ls $DIR/* | shuf -n1)
+
+echo "$NOTIF_LIGHT"
+notify-send -u normal -t 3000 "$NOTIF_LIGHT"
+ 
+gsettings set org.gnome.desktop.background picture-uri file://$PIC
+gsettings set org.gnome.desktop.interface gtk-theme 'Flat-Remix-GTK-Blue-Darker-Solid'
+exit; 
